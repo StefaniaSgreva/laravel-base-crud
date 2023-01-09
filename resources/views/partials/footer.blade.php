@@ -22,6 +22,7 @@ $footer_help = config('footer.footer_help');
                         @foreach ($footer_help as $item)
                             <li>{{$item}}</li>
                         @endforeach
+                        <li><a href="{{route('contatti')}}" class="text-decoration-none text-white">Contatti</a></li>
                     </ul>
                 </div>
             </div>

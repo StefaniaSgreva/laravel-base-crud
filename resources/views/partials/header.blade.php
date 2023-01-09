@@ -15,6 +15,7 @@
                         <a class="{{(Route::currentRouteName() == $link['url']) ? 'active' : ''}}" href="{{route($link['url'])}}">{{$link['text']}}</a>
                     </li>
                 @endforeach
+                    <li><a class="text-decoration-none" href="{{route('contatti')}}">Contatti</a></li>
             </ul>
         </nav>
     </div>

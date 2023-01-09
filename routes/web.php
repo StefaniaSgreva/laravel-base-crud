@@ -21,3 +21,7 @@ Route::get('/', function () {
 })->name('home');
 
 Route::resource('presents', PresentController::class);
+
+Route::get('/contatti', function () {
+    return view('contatti');
+})->name('contatti');
